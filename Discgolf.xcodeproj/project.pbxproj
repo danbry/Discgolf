@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D486F7FB13AC7E870089C8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F7FA13AC7E870089C8DD /* Foundation.framework */; };
+		D486F7FD13AC7E870089C8DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F7FC13AC7E870089C8DD /* UIKit.framework */; };
+		D486F7FF13AC7E870089C8DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F7FE13AC7E870089C8DD /* CoreGraphics.framework */; };
+		D486F80113AC7E870089C8DD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80013AC7E870089C8DD /* AddressBook.framework */; };
+		D486F80313AC7E870089C8DD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80213AC7E870089C8DD /* AddressBookUI.framework */; };
+		D486F80513AC7E870089C8DD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80413AC7E870089C8DD /* AudioToolbox.framework */; };
+		D486F80713AC7E870089C8DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80613AC7E870089C8DD /* AVFoundation.framework */; };
+		D486F80913AC7E870089C8DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80813AC7E870089C8DD /* CoreLocation.framework */; };
+		D486F80B13AC7E870089C8DD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80A13AC7E870089C8DD /* MediaPlayer.framework */; };
+		D486F80D13AC7E870089C8DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80C13AC7E870089C8DD /* QuartzCore.framework */; };
+		D486F80F13AC7E870089C8DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F80E13AC7E870089C8DD /* SystemConfiguration.framework */; };
+		D486F81113AC7E870089C8DD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F81013AC7E870089C8DD /* MobileCoreServices.framework */; };
+		D486F81513AC7E870089C8DD /* Discgolf-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D486F81413AC7E870089C8DD /* Discgolf-Info.plist */; };
+		D486F81813AC7E870089C8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D486F81613AC7E870089C8DD /* InfoPlist.strings */; };
+		D486F81B13AC7E870089C8DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D486F81A13AC7E870089C8DD /* main.m */; };
+		D486F81D13AC7E870089C8DD /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D486F81C13AC7E870089C8DD /* PhoneGap.framework */; };
+		D486F82113AC7E870089C8DD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D486F82013AC7E870089C8DD /* icon.png */; };
+		D486F82313AC7E870089C8DD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D486F82213AC7E870089C8DD /* icon@2x.png */; };
+		D486F82513AC7E870089C8DD /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D486F82413AC7E870089C8DD /* icon-72.png */; };
+		D486F82813AC7E870089C8DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D486F82713AC7E870089C8DD /* Default.png */; };
+		D486F82A13AC7E870089C8DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D486F82913AC7E870089C8DD /* Default@2x.png */; };
+		D486F82C13AC7E870089C8DD /* Default~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D486F82B13AC7E870089C8DD /* Default~iPad.png */; };
+		D486F82E13AC7E870089C8DD /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = D486F82D13AC7E870089C8DD /* PhoneGap.plist */; };
+		D486F83113AC7E870089C8DD /* AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = D486F83013AC7E870089C8DD /* AppDelegate.h */; };
+		D486F83313AC7E870089C8DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D486F83213AC7E870089C8DD /* AppDelegate.m */; };
+		D486F83613AC7E870089C8DD /* README in Resources */ = {isa = PBXBuildFile; fileRef = D486F83513AC7E870089C8DD /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D486F7F613AC7E870089C8DD /* Discgolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discgolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D486F7FA13AC7E870089C8DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D486F7FC13AC7E870089C8DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D486F7FE13AC7E870089C8DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D486F80013AC7E870089C8DD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		D486F80213AC7E870089C8DD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		D486F80413AC7E870089C8DD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D486F80613AC7E870089C8DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D486F80813AC7E870089C8DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D486F80A13AC7E870089C8DD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D486F80C13AC7E870089C8DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D486F80E13AC7E870089C8DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D486F81013AC7E870089C8DD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D486F81413AC7E870089C8DD /* Discgolf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Discgolf-Info.plist"; sourceTree = "<group>"; };
+		D486F81713AC7E870089C8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D486F81913AC7E870089C8DD /* Discgolf-Prefix.pch */ = {isa = PBXFileReference; path = "Discgolf-Prefix.pch"; sourceTree = "<group>"; };
+		D486F81A13AC7E870089C8DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D486F81C13AC7E870089C8DD /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
+		D486F82013AC7E870089C8DD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
+		D486F82213AC7E870089C8DD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
+		D486F82413AC7E870089C8DD /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		D486F82713AC7E870089C8DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		D486F82913AC7E870089C8DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
+		D486F82B13AC7E870089C8DD /* Default~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iPad.png"; path = "Resources/splash/Default~iPad.png"; sourceTree = "<group>"; };
+		D486F82D13AC7E870089C8DD /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		D486F83013AC7E870089C8DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		D486F83213AC7E870089C8DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		D486F83513AC7E870089C8DD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D486F7F013AC7E870089C8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D486F7FB13AC7E870089C8DD /* Foundation.framework in Frameworks */,
+				D486F7FD13AC7E870089C8DD /* UIKit.framework in Frameworks */,
+				D486F7FF13AC7E870089C8DD /* CoreGraphics.framework in Frameworks */,
+				D486F80113AC7E870089C8DD /* AddressBook.framework in Frameworks */,
+				D486F80313AC7E870089C8DD /* AddressBookUI.framework in Frameworks */,
+				D486F80513AC7E870089C8DD /* AudioToolbox.framework in Frameworks */,
+				D486F80713AC7E870089C8DD /* AVFoundation.framework in Frameworks */,
+				D486F80913AC7E870089C8DD /* CoreLocation.framework in Frameworks */,
+				D486F80B13AC7E870089C8DD /* MediaPlayer.framework in Frameworks */,
+				D486F80D13AC7E870089C8DD /* QuartzCore.framework in Frameworks */,
+				D486F80F13AC7E870089C8DD /* SystemConfiguration.framework in Frameworks */,
+				D486F81113AC7E870089C8DD /* MobileCoreServices.framework in Frameworks */,
+				D486F81D13AC7E870089C8DD /* PhoneGap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D486F7F313AC7E870089C8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D486F7E813AC7E870089C8DD = {
+			isa = PBXGroup;
+			children = (
+				D486F81213AC7E870089C8DD /* Discgolf */,
+				D486F7F913AC7E870089C8DD /* Frameworks */,
+				D486F7F713AC7E870089C8DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D486F7F713AC7E870089C8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D486F7F613AC7E870089C8DD /* Discgolf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D486F7F913AC7E870089C8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D486F7FA13AC7E870089C8DD /* Foundation.framework */,
+				D486F7FC13AC7E870089C8DD /* UIKit.framework */,
+				D486F7FE13AC7E870089C8DD /* CoreGraphics.framework */,
+				D486F80013AC7E870089C8DD /* AddressBook.framework */,
+				D486F80213AC7E870089C8DD /* AddressBookUI.framework */,
+				D486F80413AC7E870089C8DD /* AudioToolbox.framework */,
+				D486F80613AC7E870089C8DD /* AVFoundation.framework */,
+				D486F80813AC7E870089C8DD /* CoreLocation.framework */,
+				D486F80A13AC7E870089C8DD /* MediaPlayer.framework */,
+				D486F80C13AC7E870089C8DD /* QuartzCore.framework */,
+				D486F80E13AC7E870089C8DD /* SystemConfiguration.framework */,
+				D486F81013AC7E870089C8DD /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D486F81213AC7E870089C8DD /* Discgolf */ = {
+			isa = PBXGroup;
+			children = (
+				D486F81C13AC7E870089C8DD /* PhoneGap.framework */,
+				D486F81E13AC7E870089C8DD /* Resources */,
+				D486F82F13AC7E870089C8DD /* Classes */,
+				D486F83413AC7E870089C8DD /* Plugins */,
+				D486F81313AC7E870089C8DD /* Supporting Files */,
+			);
+			path = Discgolf;
+			sourceTree = "<group>";
+		};
+		D486F81313AC7E870089C8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D486F81413AC7E870089C8DD /* Discgolf-Info.plist */,
+				D486F81613AC7E870089C8DD /* InfoPlist.strings */,
+				D486F81913AC7E870089C8DD /* Discgolf-Prefix.pch */,
+				D486F81A13AC7E870089C8DD /* main.m */,
+				D486F82D13AC7E870089C8DD /* PhoneGap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D486F81E13AC7E870089C8DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D486F81F13AC7E870089C8DD /* icons */,
+				D486F82613AC7E870089C8DD /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D486F81F13AC7E870089C8DD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				D486F82013AC7E870089C8DD /* icon.png */,
+				D486F82213AC7E870089C8DD /* icon@2x.png */,
+				D486F82413AC7E870089C8DD /* icon-72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		D486F82613AC7E870089C8DD /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				D486F82713AC7E870089C8DD /* Default.png */,
+				D486F82913AC7E870089C8DD /* Default@2x.png */,
+				D486F82B13AC7E870089C8DD /* Default~iPad.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		D486F82F13AC7E870089C8DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D486F83013AC7E870089C8DD /* AppDelegate.h */,
+				D486F83213AC7E870089C8DD /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D486F83413AC7E870089C8DD /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				D486F83513AC7E870089C8DD /* README */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D486F7F513AC7E870089C8DD /* Discgolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D486F83913AC7E870089C8DD /* Build configuration list for PBXNativeTarget "Discgolf" */;
+			buildPhases = (
+				D486F7EF13AC7E870089C8DD /* Sources */,
+				D486F7F013AC7E870089C8DD /* Frameworks */,
+				D486F7F113AC7E870089C8DD /* Resources */,
+				D486F7F213AC7E870089C8DD /* Sources */,
+				D486F7F313AC7E870089C8DD /* Frameworks */,
+				D486F7F413AC7E870089C8DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Discgolf;
+			productName = Discgolf;
+			productReference = D486F7F613AC7E870089C8DD /* Discgolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D486F7EA13AC7E870089C8DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Omegapoint AB";
+			};
+			buildConfigurationList = D486F7ED13AC7E870089C8DD /* Build configuration list for PBXProject "Discgolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D486F7E813AC7E870089C8DD;
+			productRefGroup = D486F7F713AC7E870089C8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D486F7F513AC7E870089C8DD /* Discgolf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D486F7F113AC7E870089C8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D486F81513AC7E870089C8DD /* Discgolf-Info.plist in Resources */,
+				D486F81813AC7E870089C8DD /* InfoPlist.strings in Resources */,
+				D486F82113AC7E870089C8DD /* icon.png in Resources */,
+				D486F82313AC7E870089C8DD /* icon@2x.png in Resources */,
+				D486F82513AC7E870089C8DD /* icon-72.png in Resources */,
+				D486F82813AC7E870089C8DD /* Default.png in Resources */,
+				D486F82A13AC7E870089C8DD /* Default@2x.png in Resources */,
+				D486F82C13AC7E870089C8DD /* Default~iPad.png in Resources */,
+				D486F82E13AC7E870089C8DD /* PhoneGap.plist in Resources */,
+				D486F83113AC7E870089C8DD /* AppDelegate.h in Resources */,
+				D486F83613AC7E870089C8DD /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D486F7F413AC7E870089C8DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, in Xcode 4.\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D486F7EF13AC7E870089C8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D486F81B13AC7E870089C8DD /* main.m in Sources */,
+				D486F83313AC7E870089C8DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D486F7F213AC7E870089C8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D486F81613AC7E870089C8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D486F81713AC7E870089C8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D486F83713AC7E870089C8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D486F83813AC7E870089C8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D486F83A13AC7E870089C8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Discgolf/Discgolf-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "Discgolf/Discgolf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D486F83B13AC7E870089C8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Discgolf/Discgolf-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "Discgolf/Discgolf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D486F7ED13AC7E870089C8DD /* Build configuration list for PBXProject "Discgolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D486F83713AC7E870089C8DD /* Debug */,
+				D486F83813AC7E870089C8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D486F83913AC7E870089C8DD /* Build configuration list for PBXNativeTarget "Discgolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D486F83A13AC7E870089C8DD /* Debug */,
+				D486F83B13AC7E870089C8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D486F7EA13AC7E870089C8DD /* Project object */;
+}
